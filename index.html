@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <script>
+    let h1 = document.createElement("h1");
+          document.body.appendChild(h1);
+          h1.innerHTML = "ID CARD";
+          h1.style.background = "pink";
+          h1.style.width = "200px";
+          h1.style.paddingLeft = "30px";
+          h1.style.marginLeft = "50px";
+          let div = document.createElement("div");
+          document.body.appendChild(div);
+          div.style.border = "2px solid";
+          div.style.height = "400px";
+          div.style.width = "230px";
+          div.style.marginLeft = "50px";
+          div.style.borderRadius = "30px";
+          div.style.background = "orange";
+          let img = document.createElement("img");
+          div.appendChild(img);
+          img.style.height = "200px";
+          img.style.width = "150px";
+          img.setAttribute("src", "./Thaher.jpg");
+          img.style.padding = "30px";
+          let h11 = document.createElement("h5");
+          div.appendChild(h11);
+          h11.innerHTML = "NAME : SHAIK THAHER BASHA";
+          h11.style.paddingLeft = "20px";
+          let ins = document.createElement("h4");
+          div.appendChild(ins);
+          ins.innerHTML = "Institute : 10K Coders";
+          ins.style.paddingLeft = "30px";
+          let batch = document.createElement("h3");
+          div.appendChild(batch);
+          batch.innerHTML = "Batch : 14R";
+          batch.style.paddingLeft = "30px"
+    
+     </script>
+    
+  </body>
+</html>
